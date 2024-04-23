@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1 class="Title">Calculadora de Dizimo</h1>
+</header>
+<body>
+    <main class="container__input">
+        <span>Ganhos do dia Uber <span id="value_uber">
+                <input type="number">
+        </span>
+
+         <span>Ganhos da dia 99 <span id="value_99">
+                 <input type="number">
+         </span>
+
+         <span>Ganhos Particulares<span id="value_particular">
+              <input type="number">
+         </span>
+
+         <span>Kilometragem Percorrida<span id="km_traveled">
+                <input type="number">
+         </span>
+
+         <span>Consumo Medio<span id="average_consumption">
+                <input type="number">
+         </span>
+
+         <span>Valor Pago na Gasolina<span id="price_fuel">
+                <input type="number">
+         </span>
+        <button id="button" class="button__cta" onclick="calculate()">Calcular</button>
+    <div id="resultado"></div>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+</html>

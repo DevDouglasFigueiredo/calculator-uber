@@ -1,0 +1,132 @@
+*{
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Title{
+    font-weight: bold;
+    color: aliceblue;
+    display: flex;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.logo{
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.container__input{
+    width: 400px;
+    margin: 1rem 0;
+}
+
+.container__input span{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.slider{
+    -webkit-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #dfdfdf;
+    height: 1rem;
+    outline: none;
+    margin-top: .5rem;
+
+}
+
+.button__cta{
+    height: 40px;
+    background-color: #3aad28;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2.2rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container__password{
+    max-width: 480px;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.hide{
+    display: none;
+}
+
+.title{
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.password{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #313131;
+    transition: transform 0.5s
+}
+
+.password:hover{
+    transform: scale(1.05);
+}
+
+.tooltip{
+    color: #fff;
+    position: relative;
+    top: 20px;
+    padding: .3rem .5rem;
+    background: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 6px;
+    visibility: hidden;
+    transition: all .1s ease-in-out;
+    opacity: 0;
+
+}
+
+.container__password:hover .tooltip{
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
+
+#resultado {
+    margin-top: 1rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}

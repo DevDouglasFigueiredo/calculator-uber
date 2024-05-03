@@ -9,7 +9,11 @@ function calculate() {
     let earningsToday = valueFromUber + valueFrom99 + valueFromParticular;
     let litersSpent = km_traveled / average;
     let valueSpentFuel = litersSpent * priceLiterFuel;
-    let Total = (earningsToday - valueSpentFuel) * 0.10;
+    let profit = earningsToday - valueSpentFuel;
+    let total = profit * 0.10;
 
-    document.getElementById("resultado").innerText = "Dizimo: " + Total.toFixed(2);
+    document.getElementById("earnings_today").innerText = "Ganhos de Hoje R$: " + earningsToday.toFixed(2);
+    document.getElementById("valueSpentFuelToday").innerText = "Você gastou hoje: " + valueSpentFuel.toFixed(2);
+    document.getElementById("profit").innerText = "Lucro liquido R$: " + profit.toFixed(2);
+    document.getElementById("resultado").innerText = "Dizimo: R$ " + total.toFixed(2);
 }

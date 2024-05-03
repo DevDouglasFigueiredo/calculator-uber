@@ -124,9 +124,26 @@ body{
     opacity: 1;
 }
 
+#earnings_today {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
 #resultado {
-    margin-top: 1rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#profit {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#valueSpentFuelToday{
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
 }

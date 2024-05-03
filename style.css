@@ -65,6 +65,18 @@ body{
     font-size: 1.2rem;
 }
 
+.button__refresh{
+    height: 40px;
+    background-color: #95970d;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    color: #ebe1e1;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
 .container__password{
     max-width: 480px;
     margin: 1rem 0;
